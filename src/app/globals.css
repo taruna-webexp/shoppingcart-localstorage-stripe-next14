@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* login form */
+* {
+  font-family: sans-serif;
+}
+
+form.login-form {
+  border: 1px solid #1976d2;
+  width: 25%;
+  margin: 2% auto;
+  padding: 0% 3% 8% 3%;
+  border-radius: 7px;
+  height: 430px;
+}
+form.signup-form {
+  border: 1px solid #1976d2;
+  width: 25%;
+  margin: 1% auto;
+  padding: 0% 3% 11% 3%;
+  border-radius: 7px;
+  height: 430px;
+}
+
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  width: 100%;
+}
+
+a.sign-up {
+  color: #1976d2;
+}
+
+.heading-login {
+  color: #1976d2;
+  text-align: center;
+  font-weight: 800;
+  font-size: 35px;
+}
+
+.heading-signup {
+  color: #1976d2;
+  text-align: center;
+  font-weight: 800;
+  font-size: 28px;
+}
+
+p.paragraph {
+  font-size: 14px;
+  color: rgb(99, 99, 99);
+}
+
+p.paragraph:hover {
+  color: #147de6;
+}
+
+p.para-signup {
+  font-size: 15px;
+  color: rgb(99, 99, 99);
+  text-align: center;
+}
+
+.login-button {
+  font-size: 18px !important;
+  width: 100%;
+  margin-bottom: 10% !important;
+}
+
+.login-button:hover {
+  color: rgb(255, 252, 252);
+  background-color:#1976d2!important;
+}
+.signup-button {
+  font-size: 18px!important;
+  width: 100%;
+  /* margin-bottom: 2%!important; */
+}
+.signup-button:hover {
+  color: rgb(255, 252, 252);
+  background-color:#1976d2!important;
+}
+
+.forget-create {
+  display: flex;
+  justify-content: space-between;
+}
+
+.facebook {
+  font-size: 32px !important;
+  color: #37628d;
+}
+
+.twitter {
+  font-size: 32px !important;
+  color: #3b90e6;
+}
+
+.google {
+  font-size: 31px !important;
+  color: #dd4e4e;
+}
+
+.icons {
+  text-align: center;
+}

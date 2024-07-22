@@ -1,0 +1,115 @@
+.view-cart {
+    border-radius: 8px;
+    margin-bottom: 2%;
+    margin-left: 8%;
+    height: 340px;
+    width: 75%;
+    background-color: rgb(248, 250, 250);
+    display: flex;
+    border: 1px solid black;
+}
+
+
+.image-sec {
+    margin-left: 5%;
+}
+.add-cart {
+    width: 117%;
+}
+p {
+    color: #524b4b;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.para-items {
+    height: 260px;
+}
+
+.cart-btn {
+    width: 15%;
+    height: 31px;
+    margin-right: 10px;
+}
+
+.count-number {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+img.product-image {
+    width: 85%;
+    margin: 35px 1px 10px 0px;
+}
+
+.price-section {
+    margin: 8% 1% 6% 23%;
+}
+
+.discount {
+    width: 75%;
+    padding: 12px;
+    background-color: brown;
+    color: white;
+}
+
+h2.subtotal {
+    margin-top: 40%;
+}
+
+.css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+    min-width: 0px !important;
+    margin: 0px 10px 5px 10px !important;
+    border: 1px solid rgb(0 0 0 / 50%) !important;
+    color: #070707 !important;
+}
+
+.button.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButton-colorPrimary.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButton-colorPrimary.cart-btn.css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+    margin-left: 20px !important;
+}
+
+.payment-cart {
+    left: 69%;
+    right: 73px;
+    bottom: 14%;
+    position: fixed;
+    background-color: rgb(248, 250, 250);
+    height: 430px;
+    border: 1px solid black;
+    margin-top: 24%;
+    text-align: center;
+    border-radius: 8px;
+}
+.close-icon {
+    text-align: end;
+    margin-right: -22%;
+    margin-top: 1%;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButton-colorPrimary.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButton-colorPrimary.pay-btn.css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+    margin-right: 6% !important;
+    margin-top: 10% !important;
+}
+
+h1.shopping-cart {
+    margin-left: 36%;
+}
+
+p.price {
+    font-size: 20px;
+}
+
+del {
+    margin-right: 3px;
+    font-size: 17px;
+}
+
+p.total-price {
+    font-size: 29px;
+}
+
+.main-cart {
+    display: grid;
+    grid-template-columns: 69% 25%;
+    background-color: #dcefda;
+}
