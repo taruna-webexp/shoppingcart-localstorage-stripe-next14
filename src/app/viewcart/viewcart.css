@@ -9,13 +9,14 @@
     border: 1px solid black;
 }
 
-
 .image-sec {
     margin-left: 5%;
 }
+
 .add-cart {
     width: 117%;
 }
+
 p {
     color: #524b4b;
     font-size: 17px;
@@ -72,7 +73,7 @@ h2.subtotal {
 .payment-cart {
     left: 69%;
     right: 73px;
-    bottom: 14%;
+    bottom: -4%;
     position: fixed;
     background-color: rgb(248, 250, 250);
     height: 430px;
@@ -81,11 +82,13 @@ h2.subtotal {
     text-align: center;
     border-radius: 8px;
 }
+
 .close-icon {
     text-align: end;
     margin-right: -22%;
     margin-top: 1%;
 }
+
 button.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButton-colorPrimary.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButton-colorPrimary.pay-btn.css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
     margin-right: 6% !important;
     margin-top: 10% !important;

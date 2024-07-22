@@ -15,18 +15,19 @@ const ViewCart = () => {
   const [openDialog, setOpenDialog] = useState(false); // Dialog state
 
   useEffect(() => {
-    const cartData = JSON.parse(localStorage.getItem("cart")) || [];
-    setGetData(cartData);
+    // Fetch data from localStorage only on the client side
+    const storedCart = JSON.parse(localStorage.getItem("cart")) || [];
+    setGetData(storedCart);
 
     const storedCounts = JSON.parse(localStorage.getItem("counts"));
-    if (storedCounts && storedCounts.length === cartData.length) {
+    if (storedCounts && storedCounts.length === storedCart.length) {
       setCounts(storedCounts);
     } else {
-      const initialCounts = cartData.map(() => 1);
+      const initialCounts = storedCart.map(() => 1);
       localStorage.setItem("counts", JSON.stringify(initialCounts));
       setCounts(initialCounts);
     }
-  }, []);
+  });
 
   useEffect(() => {
     let totalDiscount = 0;

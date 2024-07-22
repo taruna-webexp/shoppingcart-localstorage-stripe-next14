@@ -9,7 +9,7 @@ import Link from 'next/link';
 const AddToCart = ({ getData, handleAddCount, handleSubCount, DeleteItem, counts }) => {
     return (
         <>
-            <div className='add-cart'>
+            <div className='add-cart !w-full'>
                 <div style={{display:'flex', justifyContent:"space-between"}}>
                 <h1 className='shopping-cart'>Shopping Cart</h1>
                 <div className='close-icon'>
